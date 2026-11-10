@@ -1,5 +1,7 @@
 package pkg
 
+import "fmt"
+
 func MyPrint2(str string) string {
-	return str
+	return fmt.Sprint("MyPrint2:", str)
 }
